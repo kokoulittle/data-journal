@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>New Journal Entry - Data Journal</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="admin.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div>
+        <p class="eyebrow">Admin</p>
+        <h1>New Entry</h1>
+      </div>
+      <a class="button" href="../">View Journal</a>
+    </header>
+
+    <main>
+      <form id="entry-form" class="admin-form">
+        <section class="form-section">
+          <h2>Connection</h2>
+          <label>
+            Worker URL
+            <input id="worker-url" name="workerUrl" type="url" placeholder="https://data-journal-admin.USERNAME.workers.dev" required>
+          </label>
+          <label>
+            Admin password
+            <input id="admin-password" name="adminPassword" type="password" autocomplete="current-password" required>
+          </label>
+        </section>
+
+        <section class="form-section">
+          <h2>Entry</h2>
+          <label>
+            Date
+            <input name="date" type="date" required>
+          </label>
+          <label>
+            Course/topic
+            <input name="courseTopic" type="text" maxlength="160" required>
+          </label>
+          <label>
+            Prompt
+            <textarea name="prompt" rows="4" maxlength="1000" required></textarea>
+          </label>
+          <label>
+            Journal Entry
+            <textarea name="journalEntry" rows="10" maxlength="8000" required></textarea>
+          </label>
+          <label>
+            Other thoughts or questions
+            <textarea name="otherThoughts" rows="5" maxlength="2000" required></textarea>
+          </label>
+        </section>
+
+        <div class="form-actions">
+          <button class="button" type="submit">Publish Entry</button>
+          <p id="status" class="status" role="status" aria-live="polite"></p>
+        </div>
+      </form>
+    </main>
+
+    <script src="admin.js"></script>
+  </body>
+</html>

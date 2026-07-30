@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "data-journal-admin",
+  "main": "src/index.js",
+  "compatibility_date": "2026-07-30",
+  "workers_dev": true,
+  "vars": {
+    "ALLOWED_ORIGINS": "https://kokoulittle.github.io,http://localhost:8000"
+  }
+}

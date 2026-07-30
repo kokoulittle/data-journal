@@ -36,3 +36,9 @@ Then visit `http://localhost:8000`.
 4. Select `Deploy from a branch`.
 5. Choose `main` and `/root`.
 6. Save.
+
+## Publish Entries From The Website
+
+The public site includes an admin form at `/admin/`. It sends new entries to a Cloudflare Worker, and the Worker commits them to `entries/entries.json`.
+
+Setup instructions are in [worker/README.md](worker/README.md).
