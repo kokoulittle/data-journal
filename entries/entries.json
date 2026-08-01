@@ -5,5 +5,12 @@
     "prompt": "What does the word data mean to you?",
     "journalEntry": "When I think about data, I think about records, observations, and evidence that can help answer questions. Data can come from sales, surveys, sensors, spreadsheets, websites, or everyday activity. By itself, data can be messy or hard to interpret, but with careful analysis it can reveal patterns and support better decisions.",
     "otherThoughts": "I want this journal to help me track how my understanding of data analytics changes over time."
+  },
+  {
+    "date": "2026-07-31",
+    "courseTopic": "Prepare for your capstone project",
+    "prompt": "As you begin, evaluate your goals and expectations for the capstone. Consider:\n\nWhat do you hope to take away from this capstone project? What is one important skill you think you’ll learn?\n\nWhich skills do you most look forward to demonstrating?\n\nWhat are some issues you might encounter?",
+    "journalEntry": "As this capstone effort begins, I aim to prove to myself that I have mastered the data analysis steps. It is my main goal. I want to ask the most relevant questions, uncover unexpected insights, and satisfy my curiosity about the data. Most of all, I want to make sure that the presentation tells the story that will answer stakeholders' questions.\n\nI look forward to demonstrating and improving my Python, Tableau and SQL skills, as well as my critical thinking skills.\n\nI am anticipating data availability, code structuring issues, and a potential inability to properly communicate my findings.",
+    "otherThoughts": "How can I make the shift to data analysis in the age of AI? That question is an important one to answer."
   }
 ]
